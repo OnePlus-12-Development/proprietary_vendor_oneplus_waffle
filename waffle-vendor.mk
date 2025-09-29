@@ -1251,6 +1251,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.dat:$(TARGET_COPY_OUT_ODM)/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.dat \
     vendor/oneplus/waffle/proprietary/odm/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.fw \
     vendor/oneplus/waffle/proprietary/odm/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/waffle/proprietary/odm/etc/libnfc-mtp-SN220.conf_22825:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_22825 \
+    vendor/oneplus/waffle/proprietary/odm/etc/libnfc-mtp-SN220.conf_22877:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_22877 \
     vendor/oneplus/waffle/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/oneplus/waffle/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
     vendor/oneplus/waffle/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt \
@@ -1449,7 +1451,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/waffle/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/waffle/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/waffle/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/waffle/proprietary/vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/waffle/proprietary/vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/waffle/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
