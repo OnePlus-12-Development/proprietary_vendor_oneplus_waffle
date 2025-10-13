@@ -21,6 +21,7 @@ $(call add-radio-file-sha1-checked,radio/imagefv.img,ba7b64cb503e489af71f70c9d2f
 $(call add-radio-file-sha1-checked,radio/keymaster.img,7f7665ebc2a1cb93792695f6ec06b03dd82d7236)
 $(call add-radio-file-sha1-checked,radio/modem.img,7a55949e656cd8612ef22d19d56ecfe98baa4b3a)
 $(call add-radio-file-sha1-checked,radio/oplus_sec.img,2a0a3bc41fa77874e80515aaee0a151fd7ea2756)
+$(call add-radio-file-sha1-checked,radio/oplusstanvbk.img,0408e15276c212885375ba75720bbc5516c504a5)
 $(call add-radio-file-sha1-checked,radio/qupfw.img,c302c5d01d81618bd5e208880faafa2c836d50c7)
 $(call add-radio-file-sha1-checked,radio/shrm.img,28ea3cdc508f5534b3be08fde3ba3da2897f336e)
 $(call add-radio-file-sha1-checked,radio/splash.img,02a16b8f3e8f9f0214964ad40feadf06690fc526)
