@@ -1088,6 +1088,12 @@
                 <!-- DEVICEPP_TX - DEVICEPP_TX_VOICE_RECOGNITION -->
                 <graph_kv key="0xAD000000" value="0xAD000017"/>
             </keys_and_values>
+            <keys_and_values StreamType="PAL_STREAM_VOICE_RECOGNITION" CustomConfig="4ch-aec-mic">
+                <!-- DEVICETX - HANDSETMIC -->
+                <graph_kv key="0xA3000000" value="0xA3000004"/>
+                <!-- DEVICEPP_TX - DEVICEPP_TX_4CH_AEC -->
+                <graph_kv key="0xAD000000" value="0xAD000106"/>
+            </keys_and_values>
             <keys_and_values StreamType="PAL_STREAM_COMPRESSED">
                 <!-- DEVICETX - HANDSETMIC -->
                 <graph_kv key="0xA3000000" value="0xA3000004"/>

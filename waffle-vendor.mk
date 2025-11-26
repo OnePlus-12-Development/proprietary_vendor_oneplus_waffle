@@ -34,6 +34,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/asd/v204_class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/v204_class.dlc \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/BaseLut:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/BaseLut \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut2 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut3 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut4 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut5 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut6 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut7 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut8 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut2 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut3 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut4 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut5 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut6 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut7 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SC32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut8 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut0 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut1 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut2 \
@@ -43,6 +64,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut6 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut7 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/SCLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut8 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/BaseLut:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/BaseLut \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut2 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut3 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut4 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut5 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut6 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut7 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/CWCM32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/CWCM32Lut8 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/LMTLut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/LMTLut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut0 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut1 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut2 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut3 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut4 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut5 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut6 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut7 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SC32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SC32Lut8 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SCLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SCLut0 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SCLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SCLut1 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/lmt/lmt/SCLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/lmt/SCLut2 \
@@ -55,9 +97,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/Ditherout:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/Ditherout \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/FromXml \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/SimTool_Dolby.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Dolby.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/SimTool_Master.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Master.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/TriggerBIN:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBIN \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/Ditherout:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/Ditherout \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/FromXml \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/SimTool.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/SimTool_Dolby.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/SimTool_Dolby.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/SimTool_Master.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/SimTool_Master.ini \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/setting/setting/TriggerBIN:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/setting/TriggerBIN \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/vig/VigTab_Main:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Main \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/vig/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Tele \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/basictone/vig/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_UTele \
@@ -609,7 +657,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/White.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
@@ -637,13 +688,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/island.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/island.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/mono_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono_0.cube.rgb.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/mono_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono_1.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/morning.dream.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morning.dream.cube.rgb.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/mountains.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mountains.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin \
@@ -1174,6 +1229,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json \
@@ -1976,6 +2032,7 @@ PRODUCT_PACKAGES += \
     libCS \
     libCaptureBokeh \
     libDeVIS \
+    libDocRectification \
     libEIS \
     libEISLive \
     libFDClite \
@@ -2035,6 +2092,7 @@ PRODUCT_PACKAGES += \
     libaiseg \
     libaisr \
     libalCFR \
+    libalog \
     libancbase_rt_fusion \
     libancbase_segbase \
     libancbase_segment \
@@ -2073,6 +2131,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_scbokeh_video \
     libarcsoft_smart_denoise \
     libarcsoft_smart_denoise_v4 \
+    libarcsoft_tfm \
     libarcsoft_triple_sat \
     libarcsoft_triple_zoomtranslator \
     libarcsoft_turbo_fusion_raw_portrait_super_night \

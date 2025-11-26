@@ -132,7 +132,7 @@
     "simple_preview_case":[{"preview":"var_camera"}],
     "simple_photo_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],
     "motion_capture_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}],
-    "professional_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}],
+    "professional_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}, {"preview_in_preview":"var_camera"}],
     "front_night_case":[{"preview":"front_main"}, {"raw16_output":"front_main"}, {"raw_output":"front_main"}, {"capture":"front_main"}],
     "front_mfnr_night_case":[{"preview":"front_main"}, {"raw16_output":"front_main"}, {"raw_output":"front_main"}, {"capture_yuv":"front_main"}, {"capture_yuv_mfnr":"front_main"}],
     "panorama_case":[{"preview":"var_camera"}, {"preview_frame":"var_camera"}],
