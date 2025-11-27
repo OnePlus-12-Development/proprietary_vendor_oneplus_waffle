@@ -1479,6 +1479,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/alipay.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b08 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b03 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b04 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b05 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b06 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/uff_gx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b00 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/uff_gx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b01 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/uff_gx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b02 \
@@ -2001,6 +2011,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.qdutils_disp@1.0 \
+    libQnnHtp.aiboost \
+    libQnnHtpPrepare.aiboost \
+    libQnnHtpV75Stub.aiboost \
+    libQnnSystem.aiboost \
+    libQnnHtpV75Skel.signed.aiframe \
+    libQnnHtpV75Skel.unsigned.aiframe \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnHtpV75Stub.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     com.qti.sensor.imx581 \
     com.qti.sensor.imx615 \
     com.qti.sensor.imx888 \
@@ -2064,6 +2087,14 @@ PRODUCT_PACKAGES += \
     libPlatformValidatorShared \
     libPolarrRender \
     libPreviewDecisionOld \
+    libQnnCpu \
+    libQnnGpu \
+    libQnnHtp \
+    libQnnHtpPrepare \
+    libQnnHtpV75CalculatorStub \
+    libQnnHtpV75Stub \
+    libQnnSaver \
+    libQnnSystem \
     libRedeyeReduce \
     libSNPE \
     libSnpeHta \
@@ -2086,6 +2117,13 @@ PRODUCT_PACKAGES += \
     libaecCustom \
     libaecCustomParamParser \
     libafCustomParamParser \
+    libaiboost \
+    libaiboost_llm \
+    libaiboost_qnn_external_delegate_te \
+    libaiboost_qnn_sr \
+    libaiboost_sr \
+    libaiboost_te \
+    libaiboost_ubwc \
     libaideblur \
     libaisal \
     libaisd \
@@ -2160,6 +2198,7 @@ PRODUCT_PACKAGES += \
     libextensionlayer \
     libfovctrl \
     libfuai_vendor \
+    libhta_hexagon_runtime_snpe \
     libhwconfigurationutil \
     libhybridraw \
     libhybridsr_datas \
@@ -2238,6 +2277,25 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.feature-V1-ndk \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    libQnnHtpV75Skel.aiboost \
+    libaiboostubwc_skel.aiboost \
+    capi_v3_oprec \
+    libCalculator_skel \
+    libQnnHtpV75 \
+    libQnnHtpV75Skel \
+    libQnnSaver \
+    libSnpeHtpV75Skel \
+    libSuperRawPost_skel \
+    libaisr_skel \
+    libarc_htp_driver_skel \
+    libcalculator_skel \
+    libhvxFaceBeautyPre_skel \
+    libktveffect \
+    libtfadsp_sb4_0_rx \
+    libtfadsp_sb4_0_tx \
+    libvdblurless_5.0.2_skel \
+    libvdsuperphoto_skel \
+    nlc_bgth_v1_5 \
     EuiccGoogle \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
