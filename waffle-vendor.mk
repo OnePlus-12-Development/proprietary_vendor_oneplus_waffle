@@ -2184,6 +2184,8 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libcalculator \
     libcalculator_htp \
+    libcreateFDCLitecachebin \
+    libcreateFDCcachebin \
     libcreatebin \
     libcvface_api \
     libdisplayaidlapis \
