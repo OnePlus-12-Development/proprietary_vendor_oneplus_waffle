@@ -640,6 +640,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
+    vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
@@ -1229,7 +1232,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
-    vendor/oneplus/waffle/proprietary/odm/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/oneplus/waffle/proprietary/odm/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json \
@@ -2056,7 +2058,6 @@ PRODUCT_PACKAGES += \
     libCS \
     libCaptureBokeh \
     libDeVIS \
-    libDocRectification \
     libEIS \
     libEISLive \
     libFDClite \
