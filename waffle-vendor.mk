@@ -1384,6 +1384,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/etc/sensor/config/lanai_mtp_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lanai_mtp_sx933x_0.json \
     vendor/oneplus/waffle/proprietary/odm/etc/sensor/config/lanai_mtp_sx937x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lanai_mtp_sx937x_0.json \
     vendor/oneplus/waffle/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
+    vendor/oneplus/waffle/proprietary/odm/etc/sensor/config/oplus_car_motion.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_car_motion.json \
     vendor/oneplus/waffle/proprietary/odm/etc/sensor/config/waffle_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/waffle_qrd_ois_system.json \
     vendor/oneplus/waffle/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/waffle/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
@@ -1909,6 +1910,7 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils \
     libdpp_manager \
     libdpps \
+    libdtlm \
     libdualcam_optical_zoom_control_vendor \
     libdualcam_video_optical_zoom_vendor \
     libeepromcutter \
