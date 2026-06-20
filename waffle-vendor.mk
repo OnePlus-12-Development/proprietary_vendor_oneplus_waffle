@@ -1996,14 +1996,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.oplus.hardware.camera.aon-V1-ndk_platform \
     vendor.oplus.hardware.camera.aon-service-impl \
-    vendor.oplus.hardware.camera_rfi-V1-ndk_vendor \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.commondcs-V1-ndk_platform \
-    vendor.oplus.hardware.cwb-V1-ndk \
-    vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
     vendor.pixelworks.hardware.display-V2-ndk_vendor \
     vendor.pixelworks.hardware.display@1.0_vendor \
@@ -2266,12 +2260,9 @@ PRODUCT_PACKAGES += \
     libyuv2 \
     libyuvwrapper \
     libzlib \
-    vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.pixelworks.hardware.display-V2-ndk \
     vendor.pixelworks.hardware.display-impl-i7 \
     vendor.pixelworks.hardware.display-impl-i7p \
